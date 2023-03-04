@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/tech-test-app/static/css/main.e0131358.css",
+    "main.js": "/tech-test-app/static/js/main.0651d4ee.js",
+    "static/media/picture2 1.png": "/tech-test-app/static/media/picture2 1.7accfb45847fb7456a86.png",
+    "index.html": "/tech-test-app/index.html",
+    "main.e0131358.css.map": "/tech-test-app/static/css/main.e0131358.css.map",
+    "main.0651d4ee.js.map": "/tech-test-app/static/js/main.0651d4ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0131358.css",
+    "static/js/main.0651d4ee.js"
+  ]
+}
