@@ -1,5 +1,5 @@
-import styled from "@emotion/styled";
-import picture from "../images/picture2 1.png";
+import styled from '@emotion/styled';
+import picture from '../images/picture2 1.png';
 
 export const Container = styled.div`
   position: relative;
@@ -22,7 +22,7 @@ export const Container = styled.div`
 
 export const Logo = styled.img`
   ${
-    "" /* width: 76px;
+    '' /* width: 76px;
   height: 22px; */
   }
   left: 20px;
@@ -39,18 +39,18 @@ export const Picture = styled.div`
 `;
 
 export const Tweets = styled.p`
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   text-transform: uppercase;
   color: #ebd8ff;
   text-align: center;
-  padding-top: 284px;
+  padding-top: 250px;
 `;
 
 export const Followers = styled.p`
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -58,4 +58,31 @@ export const Followers = styled.p`
   color: #ebd8ff;
   text-align: center;
   padding-top: 16px;
+`;
+
+export const Button = styled.button`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 28px;
+  gap: 6px;
+  margin: auto;
+  margin-top: 26px;
+  position: relative;
+  width: 196px;
+  height: 50px;
+  border: none;
+  background: #ebd8ff;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+  border-radius: 10.3108px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #373737;
 `;
