@@ -10,8 +10,8 @@ import {
 } from './UserCard.styled';
 
 export const UserCard = () => {
-  const [followers, setFollowers] = useState(`100,501 Followers`);
-  const [button, setButton] = useState('Follow');
+  const [followers, setFollowers] = useState([`100,501 Followers`]);
+  const [button, setButton] = useState(['Follow']);
 
   return (
     <>
